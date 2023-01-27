@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(15, 15, 15);
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+}
+nav > img{
+    width: 15%;
+}
+ul{
+    display: flex;
+    margin-top: 3rem;
+}
+li > a{
+    color: red!important;
+    text-decoration: none;
+}
+ul >li{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 15px;
+}
+.home > .box{
+    display:flex;
+}
+.sec1 > h3{
+    color:white;
+    font-size: 3rem;
+    font-family: system-ui;
+    margin: 0;
+}
+.sec1 > h4{
+    color: white;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 0;
+}
+.sec1 > p{
+    color:white;
+    font-family: sans-serif;
+}
+
+.sec1{
+    margin: 6rem 3rem;
+}
+.sec2{
+    margin: 0 3rem;
+}
+.button{
+    margin-top: 3rem;
+}
+.button > a {
+    border:1px solid white;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0.7rem 2rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+.btn3 {
+    background: linear-gradient(to bottom, #cbcbcb 2%, #fff 100%);
+    margin-top: 60px;
+    margin-left: 140px;
+    padding: 15px 30px;
+    text-align: center;
+    transition: .5s;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 1px 4px 12px rgba(94, 28, 68, 15);
+}
+.button {
+    background: linear-gradient(to bottom,#378de5 3%, #48789b 100%);
+    margin-top: 50px;
+    margin-left: 140px;
+    padding: 15px 30px;
+    text-align: center;
+    transition: 5s;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 1px 4px 12px rgba(94, 28, 68, 15);
+}
+.earphones{
+    display: flex;
+    justify-content: center;
+}
+.earphones > img{
+    width: 5%;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+.earphones > img:hover{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+}
